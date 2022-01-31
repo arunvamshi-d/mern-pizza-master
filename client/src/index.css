@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+h1 {
+  font-size: 20px !important;
+}
+.flex-container {
+  display: flex !important;
+}
+.btn {
+  background-color: red !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+select {
+  box-shadow: none !important;
+  border: black;
+}
+.fa-plus {
+  color: green;
+  margin: 5px;
+}
+.fa-minus {
+  color: red;
+  margin: 5px;
+}
+.fa-trash {
+  color: red;
+}
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(1, 1, 77);
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+.adminfunctions li a {
+  color: white !important;
+  padding: 20px;
+  text-decoration: none;
+}
+td,
+th,
+tr {
+  text-align: left;
+}
+.thead-dark,
+th {
+  color: "table-dark-color";
+}
+.login {
+  background-image: url("https://thumbs.dreamstime.com/b/ad-banner-pizzeria-realistic-pizza-slices-ingredients-place-text-white-background-promotion-template-italian-food-215405931.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+.register {
+  background-image: url("https://thumbs.dreamstime.com/z/pizza-pizzeria-italian-template-flyer-baner-ingredients-text-wooden-background-horizontal-fast-food-top-view-153918695.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+
+.homescreen {
+  background-image: url("https://i.pinimg.com/736x/d4/1c/64/d41c640f12d77894f4b708ccb75ec02b.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 140vh;
+}
+
+.cartscreen {
+  background-image: url("https://pizzaschool.com/wp-content/uploads/2016/10/Pizza-Website-Background.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+
+.orderslist {
+  background-image: url("https://media.istockphoto.com/photos/wood-fired-pizza-with-flames-picture-id603873020?k=20&m=603873020&s=612x612&w=0&h=yxwLPQA4QnphxjltXV6uQC5wW73_a5jG83-W9KgUglY=");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
